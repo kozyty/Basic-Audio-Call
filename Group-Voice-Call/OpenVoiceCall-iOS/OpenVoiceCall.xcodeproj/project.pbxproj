@@ -17,15 +17,7 @@
 		0731780A1D800C190062A68C /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073178071D800C190062A68C /* RoomViewController.swift */; };
 		0731780C1D800CF20062A68C /* MediaCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0731780B1D800CF20062A68C /* MediaCharacter.swift */; };
 		07F531E31E28C1A1009BFE58 /* OpenVoiceCallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F531E21E28C1A1009BFE58 /* OpenVoiceCallUITests.swift */; };
-		A76C270E238B8E1D0047E150 /* AgoraRtcKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76C270C238B8E030047E150 /* AgoraRtcKit.framework */; };
-		A7733DB22407C14E00483870 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385F30862123CCBD005D5301 /* Accelerate.framework */; };
-		A7733DB42407C15D00483870 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7733DB32407C15D00483870 /* AudioToolbox.framework */; };
-		A7733DB62407C16600483870 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7733DB52407C16600483870 /* AVFoundation.framework */; };
-		A7733DB82407C17300483870 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A7733DB72407C16D00483870 /* libc++.tbd */; };
-		A7733DB92407C17900483870 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D29C661E9E20BA00C3583C /* libresolv.tbd */; };
-		A7733DBA2407C18400483870 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA3A7681FB584FA008526B2 /* SystemConfiguration.framework */; };
-		A7733DBB2407C18F00483870 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D41FA01EF0DF0A004B29F9 /* CoreMedia.framework */; };
-		A7733DBD2407C19800483870 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7733DBC2407C19800483870 /* CoreTelephony.framework */; };
+		1BA3E63C9F01054532C92FE1 /* Pods_OpenVoiceCall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A43B882D36E59287AC87F32 /* Pods_OpenVoiceCall.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +37,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A76C270F238B8E1D0047E150 /* AgoraRtcKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,12 +61,15 @@
 		07F531E21E28C1A1009BFE58 /* OpenVoiceCallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenVoiceCallUITests.swift; sourceTree = "<group>"; };
 		07F531E41E28C1A1009BFE58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FA3A7681FB584FA008526B2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1A1A5460C10E4DA9FA9B839D /* Pods-OpenVoiceCall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenVoiceCall.debug.xcconfig"; path = "Target Support Files/Pods-OpenVoiceCall/Pods-OpenVoiceCall.debug.xcconfig"; sourceTree = "<group>"; };
 		385F30862123CCBD005D5301 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		9A43B882D36E59287AC87F32 /* Pods_OpenVoiceCall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenVoiceCall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A76C270C238B8E030047E150 /* AgoraRtcKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraRtcKit.framework; sourceTree = "<group>"; };
 		A7733DB32407C15D00483870 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		A7733DB52407C16600483870 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A7733DB72407C16D00483870 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		A7733DBC2407C19800483870 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		BF4451695EDAB5A22100F649 /* Pods-OpenVoiceCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenVoiceCall.release.xcconfig"; path = "Target Support Files/Pods-OpenVoiceCall/Pods-OpenVoiceCall.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,15 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7733DBB2407C18F00483870 /* CoreMedia.framework in Frameworks */,
-				A7733DB62407C16600483870 /* AVFoundation.framework in Frameworks */,
-				A7733DBA2407C18400483870 /* SystemConfiguration.framework in Frameworks */,
-				A7733DB82407C17300483870 /* libc++.tbd in Frameworks */,
-				A76C270E238B8E1D0047E150 /* AgoraRtcKit.framework in Frameworks */,
-				A7733DB22407C14E00483870 /* Accelerate.framework in Frameworks */,
-				A7733DB42407C15D00483870 /* AudioToolbox.framework in Frameworks */,
-				A7733DBD2407C19800483870 /* CoreTelephony.framework in Frameworks */,
-				A7733DB92407C17900483870 /* libresolv.tbd in Frameworks */,
+				1BA3E63C9F01054532C92FE1 /* Pods_OpenVoiceCall.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +98,7 @@
 				07F531E11E28C1A1009BFE58 /* OpenVoiceCallUITests */,
 				073177C01D7FFDF80062A68C /* Products */,
 				07D29C651E9E20BA00C3583C /* Frameworks */,
+				B8ED731E8B5F6625B655701E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,6 +137,7 @@
 				0FA3A7681FB584FA008526B2 /* SystemConfiguration.framework */,
 				07D41FA01EF0DF0A004B29F9 /* CoreMedia.framework */,
 				07D29C661E9E20BA00C3583C /* libresolv.tbd */,
+				9A43B882D36E59287AC87F32 /* Pods_OpenVoiceCall.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -174,6 +162,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B8ED731E8B5F6625B655701E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A5460C10E4DA9FA9B839D /* Pods-OpenVoiceCall.debug.xcconfig */,
+				BF4451695EDAB5A22100F649 /* Pods-OpenVoiceCall.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -181,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 073177D11D7FFDF90062A68C /* Build configuration list for PBXNativeTarget "OpenVoiceCall" */;
 			buildPhases = (
+				1E73202DC96269906E697535 /* [CP] Check Pods Manifest.lock */,
 				073177BB1D7FFDF80062A68C /* Sources */,
 				073177BC1D7FFDF80062A68C /* Frameworks */,
 				073177BD1D7FFDF80062A68C /* Resources */,
@@ -225,9 +223,9 @@
 				TargetAttributes = {
 					073177BE1D7FFDF80062A68C = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 48TB6ZZL5S;
+						DevelopmentTeam = C2R94TRWQ3;
 						LastSwiftMigration = 0940;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -280,6 +278,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E73202DC96269906E697535 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenVoiceCall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		073177BB1D7FFDF80062A68C /* Sources */ = {
@@ -443,11 +466,13 @@
 		};
 		073177D21D7FFDF90062A68C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A1A5460C10E4DA9FA9B839D /* Pods-OpenVoiceCall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yuhua Gong (YBKA3W5TF4)";
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2R94TRWQ3;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,10 +481,10 @@
 				INFOPLIST_FILE = OpenVoiceCall/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.agora.OpenVoiceCall;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kozyty.OpenVoiceCall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "79882373-94b6-4ada-8717-099b70cbf706";
-				PROVISIONING_PROFILE_SPECIFIER = AgoraAppsDevProfile;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -469,11 +494,13 @@
 		};
 		073177D31D7FFDF90062A68C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF4451695EDAB5A22100F649 /* Pods-OpenVoiceCall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yuhua Gong (YBKA3W5TF4)";
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2R94TRWQ3;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -482,10 +509,10 @@
 				INFOPLIST_FILE = OpenVoiceCall/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.agora.OpenVoiceCall;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kozyty.OpenVoiceCall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "e2c40d34-a180-447e-8c83-9be2f3c55c87";
-				PROVISIONING_PROFILE_SPECIFIER = AgoraIODistribution;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.2;
